@@ -1,0 +1,222 @@
+9:146  6:784  Found BIOS RSDP at F0040
+9:146  0:000  Printing ACPI tables from RSDP F0040 ...
+9:146  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:146  0:000    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:146  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276
+9:146  0:000    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    Tables in Xsdt: 30
+9:146  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276
+9:146  0:000        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:146  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:146  0:000        773B2C00: 'FACS', Ver: 2, Len: 64
+9:146  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:146  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:146  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:146  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:146  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:146  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:146  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:146  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:146  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:146  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:146  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:146  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:146  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:146  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:146  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:146  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:146  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:146  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:146  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:146  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:146  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:146  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:146  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:146  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:146  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:146  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:146  0:000    Tables in Rsdt: 30
+9:146  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132
+9:146  0:000        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:146  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:146  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64
+9:146  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:146  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:146  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:146  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:146  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:146  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:146  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:146  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:146  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:146  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:146  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:146  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:146  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:146  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:146  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:146  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:146  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:146  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:146  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:146  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:146  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:146  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:146  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:146  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:146  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:146  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:146  0:000  Found UEFI Acpi 2.0 RSDP at 769DB000
+9:146  0:000  Saving ACPI tables from RSDP 769DB000 to EFI\CLOVER\ACPI\origin ...
+9:146  0:000   769DB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:161  0:014    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:161  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276 -> XSDT.aml
+9:174  0:013    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156 -> RSDT.aml
+9:187  0:013    Tables in Xsdt: 30
+9:187  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276 -> FACP.aml
+9:201  0:013        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:201  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680 -> DSDT.aml
+9:222  0:021        773B2C00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:236  0:013    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188 -> APIC.aml
+9:250  0:013    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+9:263  0:013    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156 -> FIDT.aml
+9:276  0:013    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+9:290  0:013    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007 -> SSDT-0.aml
+9:314  0:023    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+9:327  0:013    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731 -> SSDT-1.aml
+9:341  0:013    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714 -> SSDT-2.aml
+9:354  0:013    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+9:368  0:014    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989 -> SSDT-3.aml
+9:381  0:013    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425 -> SSDT-4.aml
+9:395  0:013    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66 -> UEFI.aml
+9:408  0:013    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148 -> LPIT.aml
+9:422  0:013    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40 -> WSMT.aml
+9:435  0:013    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-5.aml
+9:449  0:013    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168 -> SSDT-6.aml
+9:462  0:013    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52 -> DBGP.aml
+9:476  0:013    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84 -> DBG2.aml
+9:489  0:013    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992 -> SSDT-7.aml
+9:503  0:013    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268 -> SSDT-8.aml
+9:518  0:014    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85 -> MSDM.aml
+9:531  0:013    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+9:544  0:013    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-9.aml
+9:558  0:013    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-10.aml
+9:571  0:013    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129 -> NHLT.aml
+9:585  0:013    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56 -> BGRT.aml
+9:598  0:013    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52 -> TPM2.aml
+9:612  0:013    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461 -> SSDT-11.aml
+9:625  0:013    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+9:639  0:013    Tables in Rsdt: 30
+9:639  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+9:653  0:013        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:653  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:653  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+9:666  0:013    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:666  0:000  Found UEFI Acpi 1.0 RSDP at 769DB000
+9:666  0:000  Printing ACPI tables from RSDP 769DB000 ...
+9:666  0:000   769DB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:666  0:000    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:666  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276
+9:666  0:000    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    Tables in Xsdt: 30
+9:666  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276
+9:666  0:000        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:666  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:666  0:000        773B2C00: 'FACS', Ver: 2, Len: 64
+9:666  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:666  0:000    Tables in Rsdt: 30
+9:666  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132
+9:666  0:000        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:666  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:666  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64
+9:666  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
