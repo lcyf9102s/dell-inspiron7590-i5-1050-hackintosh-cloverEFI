@@ -1,0 +1,1132 @@
+0:100  0:100  MemLog inited, TSC freq: 2400491340
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 23.05.2020,  20:06:55 (GMT)
+0:100  0:000  Starting Clover revision: 5107 (master, commit a3f3053c3) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/CloverHackyColor/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000) @707C0398
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  Clover : Image base = 0x628AD000
+0:724  0:624  SimpleTextEx Status=Success
+0:724  0:000  === [ Get Smbios ] ==============================
+0:724  0:000  Type 16 Index = 0
+0:724  0:000  Total Memory Slots Count = 2
+0:724  0:000  Type 17 Index = 0
+0:724  0:000  SmbiosTable.Type17->Speed = 2667MHz
+0:724  0:000  SmbiosTable.Type17->Size = 8192MB
+0:724  0:000  SmbiosTable.Type17->Bank/Device =   DIMM A
+0:724  0:000  SmbiosTable.Type17->Vendor = 01980000802C
+0:724  0:000  SmbiosTable.Type17->SerialNumber = C5166021
+0:724  0:000  SmbiosTable.Type17->PartNumber = KHYXPX-MIE          
+0:724  0:000  Type 17 Index = 1
+0:724  0:000  Ignoring insane frequency value 0MHz
+0:724  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:724  0:000  SmbiosTable.Type17->Size = 0MB
+0:724  0:000  SmbiosTable.Type17->Bank/Device =   DIMM B
+0:724  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:724  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:724  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:724  0:000  Boot status=0
+0:724  0:000  Running on: 'Inspiron 7590' with board '0K1VDX'
+0:724  0:000  === [ GetCPUProperties ] ========================
+0:724  0:000  CPU Vendor = 756E6547 Model=906EA
+0:724  0:000   The CPU supported SSE4.1
+0:724  0:000  BrandString = Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+0:724  0:000   The CPU supported turbo
+0:724  0:000  MSR 0x35               40008
+0:724  0:000   TSC/CCC Information Leaf:
+0:724  0:000    numerator     : 200
+0:724  0:000    denominator   : 2
+0:724  0:000   Calibrated ARTFrequency: 24004913
+0:724  0:000   Rounded ARTFrequency: 24000000
+0:724  0:000  MSR 0xE2 before patch 1E008008
+0:724  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:724  0:000  MSR 0xCE              0008083B_F1011800
+0:724  0:000  corrected FLEX_RATIO = 0
+0:724  0:000  MSR 0x1B0             00000000
+0:724  0:000  FSBFrequency = 167 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:724  0:000  MaxDiv/MinDiv: 24.0/8
+0:724  0:000  Turbo: 40/40/41/41
+0:724  0:000  Features: 0xBFEBFBFF
+0:724  0:000  Threads: 8
+0:724  0:000  Cores: 4
+0:724  0:000  FSB: 100 MHz
+0:724  0:000  CPU: 4000 MHz
+0:724  0:000  TSC: 4000 MHz
+0:724  0:000  PIS: 100 MHz
+0:724  0:000  ExternalClock: 25 MHz
+0:724  0:000  === [ GetDevices ] ==============================
+0:724  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80011400)
+0:724  0:000  PCI (00|00:00.00) : 8086 3E10 class=060000
+0:724  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:724  0:000  PCI (00|01:00.00) : 10DE 1C91 class=030200
+0:724  0:000  PCI (00|00:02.00) : 8086 3E9B class=030000
+0:724  0:000   - GOP: Provided by device
+0:724  0:000   - GFX: Model=Intel UHD Graphics 630 (Intel)
+0:724  0:000  PCI (00|00:04.00) : 8086 1903 class=118000
+0:724  0:000  PCI (00|00:08.00) : 8086 1911 class=088000
+0:724  0:000  PCI (00|00:12.00) : 8086 A379 class=118000
+0:724  0:000  PCI (00|00:13.00) : 8086 A37C class=070000
+0:724  0:000  PCI (00|00:14.00) : 8086 A36D class=0C0330
+0:724  0:000  PCI (00|00:14.02) : 8086 A36F class=050000
+0:724  0:000  PCI (00|00:14.03) : 8086 A370 class=028000
+0:724  0:000   - WIFI: Vendor=Intel
+0:725  0:000  PCI (00|00:15.00) : 8086 A368 class=0C8000
+0:725  0:000  PCI (00|00:15.01) : 8086 A369 class=0C8000
+0:725  0:000  PCI (00|00:16.00) : 8086 A360 class=078000
+0:725  0:000  PCI (00|00:17.00) : 8086 A353 class=010601
+0:725  0:000  PCI (00|00:1B.00) : 8086 A340 class=060400
+0:725  0:000  PCI (00|02:00.00) : 8086 15DA class=060400
+0:725  0:000  PCI (00|03:00.00) : 8086 15DA class=060400
+0:725  0:000  PCI (00|04:00.00) : 8086 15D9 class=088000
+0:725  0:000  PCI (00|03:01.00) : 8086 15DA class=060400
+0:725  0:000  PCI (00|03:02.00) : 8086 15DA class=060400
+0:725  0:000  PCI (00|3A:00.00) : 8086 15DB class=0C0330
+0:725  0:000  PCI (00|00:1D.00) : 8086 A330 class=060400
+0:725  0:000  PCI (00|3B:00.00) : 1C5C 1327 class=010802
+0:725  0:000  PCI (00|00:1F.00) : 8086 A30D class=060100
+0:725  0:000  PCI (00|00:1F.03) : 8086 A348 class=040100
+0:725  0:000  PCI (00|00:1F.04) : 8086 A323 class=0C0500
+0:725  0:000  PCI (00|00:1F.05) : 8086 A324 class=0C8000
+0:725  0:000  === [ GetDefaultSettings ] ======================
+0:725  0:000  Clover load options size = 116 bytes
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX\UEFI. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 7590. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 7590-4000. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX-4000. Dir not exists
+0:726  0:000  set OEMPath by default: EFI\CLOVER
+0:726  0:000  EFI\CLOVER\.plist not loaded with name from LoadOptions: Invalid Parameter
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX\UEFI. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 7590. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Inspiron 7590-4000. Dir not exists
+0:726  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX. Dir not exists
+0:727  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\0K1VDX-4000. Dir not exists
+0:727  0:000  set OEMPath by default: EFI\CLOVER
+0:731  0:004  EFI\CLOVER\config.plist loaded: Success
+0:731  0:000  === [ GetListOfThemes ] =========================
+0:732  0:000  - [00]: bootcamp
+0:732  0:000  === [ Found config plists ] =====================
+0:732  0:000  - config.plist
+0:733  0:000  - config�o,.plist
+0:733  0:000  === [ GetEarlyUserSettings ] ====================
+0:733  0:000  timeout set to 3
+0:733  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:733  0:000  KextsToPatch: 40 requested
+0:733  0:000   - [00]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 6
+0:733  0:000   - [01]: AirPortBrcm4360 (NoLabel) :: PlistPatch :: data len: 29
+0:733  0:000   - [02]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 5
+0:733  0:000   - [03]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 6
+0:733  0:000   - [04]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 8
+0:733  0:000   - [05]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 8
+0:733  0:000   - [06]: AppleUSBXHCIPCI (Change 15 Port Limit To 30 in XHCI Kext (X99-series)) :: MatchOS: 10.11.6 :: BinPatch :: data len: 7
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [07]: AppleUSBXHCIPCI (change 15 port limit to 20 in XHCI kext (9-series)) :: MatchOS: 10.12.x :: BinPatch :: data len: 7
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [08]: AppleUSBXHCIPCI (Change 15 Port Limit To 30 in XHCI Kext 10.12(99-series)) :: MatchOS: 10.13.x :: BinPatch :: data len: 4
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [09]: IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [10]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:733  0:000   - [11]: AirPortBrcm4360 (NoLabel) :: BinPatch :: data len: 8
+0:733  0:000   - [12]: IONVMeFamily (NoLabel) :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [13]: AppleAHCIPort (NoLabel) :: BinPatch :: data len: 8
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [14]: IONVMeFamily (NoLabel) :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [15]: AppleUSBXHCIPCI (NoLabel) :: BinPatch :: data len: 10
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [16]: AppleUSBXHCI (NoLabel) :: BinPatch :: data len: 10
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [17]: AppleUSBXHCI (10.13.6) :: BinPatch :: data len: 10
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [18]: com.apple.driver.AppleIntelCFLGraphicsFramebuffer (32MB BIOS, 19MB framebuffer 9MB cursor bytes for 3ea50009 3e920009 3e9b0009 3ea50000 3e920000 3e000000 3e9b0000 3ea50004) :: BinPatch :: data len: 16
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [19]: com.apple.driver.AppleIntelCNLGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion) :: BinPatch :: data len: 8
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [20]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit PMHeart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 9
+0:733  0:000   - [21]: IONVMeFamily (10.13.4，10.13.6，10.14.x) :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [22]: IONVMeFamily (10.13.x) :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [23]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit PMHeart)) :: MatchOS: 10.14.1 :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [24]: com.apple.driver.usb.AppleUSBXHCI (disable port limit in XHCI kext (credit PMHeart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 9
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [25]: AppleIntelCFLGraphicsFramebuffer (Set the maximum link rate in DPCD buffer to 0x0A (HBR) for laptops with 1080p or below display) :: BinPatch :: data len: 15
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [26]: AppleIntelCFLGraphicsFramebuffer (Set the number of active lanes to 2 (for laptop with 1080p or below display) (by FireWolf)) :: BinPatch :: data len: 15
+0:733  0:000   - patch disabled at config
+0:733  0:000   - [27]: com.apple.iokit.IOUSBHostFamily (NoLabel) :: BinPatch :: data len: 4
+0:733  0:000   - [28]: com.apple.driver.usb.AppleUSBXHCI (NoLabel) :: BinPatch :: data len: 4
+0:733  0:000   - [29]: com.apple.iokit.IOUSBHostFamily (NoLabel) :: BinPatch :: data len: 4
+0:733  0:000   - [30]: com.apple.driver.usb.AppleUSBXHCI (NoLabel) :: BinPatch :: data len: 4
+0:733  0:000   - [31]: IONVMeFamily (IONVMeFamily change 0x10 -&gt; 0x01 for LiteOn CX2 (c) Pike R. Alpha implemented by Ricky for 10.14.4) :: MatchOS: 10.14.4 :: BinPatch :: data len: 9
+0:733  0:000   - [32]: IONVMeFamily (IONVMeFamily: Ignore FLBAS bit:4 being set - for Plextor/LiteOn/Hynix) :: BinPatch :: data len: 7
+0:733  0:000   - [33]: AppleIntelCFLGraphicsFramebuffer (NoLabel) :: MatchOS: 10.14.x :: BinPatch :: data len: 5
+0:733  0:000   - [34]: IONVMeFamily (IONVMeFamily change 0x10 -&gt; 0x01 for LiteOn CX2 (c) Pike R. Alpha implemented by Ricky for 10.14.4) :: MatchOS: 10.14.5 :: BinPatch :: data len: 9
+0:733  0:000   - [35]: com.apple.driver.AppleIntelLpssI2C (Disable AppleIntelLpssI2C) :: PlistPatch :: data len: 5
+0:733  0:000   - [36]: com.apple.driver.AppleIntelLpssI2CController (Disable AppleIntelLpssI2CController) :: PlistPatch :: data len: 5
+0:733  0:000   - [37]: IONVMeFamily (IONVMeFamily change 0x10 -&gt; 0x01 for LiteOn CX2 (c) Pike R. Alpha implemented by Ricky for 10.14.4) :: MatchOS: 10.14.5 :: BinPatch :: data len: 9
+0:733  0:000   - [38]: com.apple.driver.usb.AppleUSBXHCI (NoLabel) :: BinPatch :: data len: 4
+0:733  0:000   - [39]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x modify by DalianSky(credit ydeng) :: BinPatch :: data len: 4
+0:733  0:000  KernelToPatch: 5 requested
+0:733  0:000   - [00]: Disable panic kext logging on 10.13 debug kernel (credit Vandroiy) :: MatchOS: 10.13.x :: data len: 6
+0:733  0:000   - [01]: Disable panic kext logging on 10.13 release kernel (credit Vandroiy) :: MatchOS: 10.13.x :: data len: 6
+0:733  0:000   - [02]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:733  0:000   - [03]: 10.14.5 :: data len: 6
+0:733  0:000   - [04]: applealc :: data len: 21
+0:733  0:000  Default theme: bootcamp
+0:733  0:000  Hiding entries with string Preboot
+0:733  0:000  Hiding entries with string Recovery
+0:733  0:000  === [ LoadDrivers ] =============================
+0:734  0:000  Loading FSInject.efi  status=Success
+0:737  0:003  Loading NvmExpressDxe.efi  status=Success
+0:740  0:002   - driver needs connecting
+0:740  0:000  Loading OsxAptioFixDrv.efi  status=Success
+0:743  0:002  Loading AppleUITheme.efi  status=Success
+0:745  0:002  Loading EnglishDxe.efi  status=Success
+0:748  0:002  Loading OsxFatBinaryDrv.efi  status=Success
+0:750  0:002  Loading Fat.efi  status=Success
+0:753  0:003   - driver needs connecting
+0:753  0:000  Loading VirtualSmc.efi  status=Success
+0:758  0:004  Loading AppleImageCodec.efi  status=Success
+0:761  0:002  Loading VBoxHfs.efi  status=Success
+0:763  0:002   - driver needs connecting
+0:763  0:000  Loading EmuVariableUefi.efi  status=Success
+0:766  0:002  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:766  0:000  Loading DataHubDxe.efi  status=Success
+0:779  0:012  Loading PartitionDxe.efi  status=Success
+0:781  0:002   - driver needs connecting
+0:781  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:784  0:002   - driver needs connecting
+0:784  0:000  Loading AudioDxe.efi  status=Success
+0:787  0:002   - driver needs connecting
+0:787  0:000  6 drivers needs connecting ...
+0:787  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:787  0:000  Partition driver loaded: 
+0:787  0:000  APFS driver loaded
+0:787  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:087  0:300  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:171  0:083  === [ InitScreen ] ==============================
+1:171  0:000  Console modes reported: 4, available modes:
+1:171  0:000   - [01]: 80x25
+1:171  0:000   - [02]: 80x50
+1:171  0:000   - [03]: 100x31
+1:171  0:000   - [04]: 240x56 (current mode)
+1:171  0:000  SetScreenResolution: 1920x1080 - already set
+1:171  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+1:171  0:000  new SelfHandle=707C0398
+1:171  0:000  === [ GetMacAddress ] ===========================
+1:171  0:000   get legacy LAN MAC, 0 card found
+1:171  0:000  === [ ScanSPD ] =================================
+1:172  0:000  Scanning SMBus [8086:A323], mmio: 0xED326004, ioport: 0xEFA0, hostc: 0x11
+1:193  0:020  Slot: 0 Type 26 8192MB 2666MHz Vendor=Kingston PartNo=KHYXPX-MIE SerialNo=0C05010606000201
+1:194  0:001  === [ GetAcpiTablesList ] =======================
+1:194  0:000  Get Acpi Tables List from RSDT:
+1:194  0:000   - [00]: FACP  CBX3    len=132
+1:194  0:000   - [01]: APIC  CBX3    len=188
+1:194  0:000   - [02]: FPDT  CBX3    len=68
+1:194  0:000   - [03]: FIDT  CBX3    len=156
+1:194  0:000   - [04]: MCFG  CBX3    len=60
+1:194  0:000   - [05]: SSDT  CpuSsdt len=7007
+1:194  0:000   - [06]: BOOT  CBX3     len=40
+1:194  0:000   - [07]: SSDT  SaSsdt  len=5731
+1:194  0:000   - [08]: SSDT  PegSsdt len=9714
+1:194  0:000   - [09]: HPET  CBX3    len=56
+1:194  0:000   - [10]: SSDT  CflH_Tbt len=10989
+1:194  0:000   - [11]: SSDT  xh_cfht4 len=13425
+1:194  0:000   - [12]: UEFI  CBX3    len=66
+1:194  0:000   - [13]: LPIT  CBX3    len=148
+1:194  0:000   - [14]: WSMT  CBX3    len=40
+1:194  0:000   - [15]: SSDT  PtidDevc len=10206
+1:194  0:000   - [16]: SSDT  TbtTypeC len=4168
+1:194  0:000   - [17]: DBGP  CBX3    len=52
+1:194  0:000   - [18]: DBG2  CBX3    len=84
+1:194  0:000   - [19]: SSDT  UsbCTabl len=1992
+1:194  0:000   - [20]: SSDT  DptfTabl len=21268
+1:194  0:000   - [21]: MSDM  CBX3    len=85
+1:194  0:000   - [22]: SLIC  CBX3    len=374
+1:194  0:000   - [23]: SSDT  ADebTabl len=324
+1:194  0:000   - [24]: SSDT  SgPeg len=174
+1:194  0:000   - [25]: NHLT  EDK2     len=6129
+1:194  0:000   - [26]: BGRT  CBX3    len=56
+1:194  0:000   - [27]: TPM2  CBX3    len=52
+1:194  0:000   - [28]: SSDT  OptTabl len=9461
+1:194  0:000   - [29]: DMAR  EDK2     len=168
+1:194  0:000  Calibrated TSC Frequency = 2400491340 = 2400MHz
+1:194  0:000  === [ GetUserSettings ] =========================
+1:194  0:000  Add 1 devices (kTagTypeDict):
+1:194  0:000  USB FixOwnership: yes
+1:194  0:000  Dropping 2 tables:
+1:194  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+1:194  0:000           - set table: 52414D44,                0 to drop: yes
+1:194  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="xh_rvp10" (30317076725F6878)
+1:194  0:000           - set table: 54445353, 30317076725F6878 to drop: no
+1:194  0:000   - final DSDT Fix mask=00000004
+1:194  0:000  PatchesDSDT: 15 requested
+1:194  0:000   - [00]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [01]: (OSID to XSID) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [02]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [03]: (change EC0 to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [04]: (Rename ALZA to HDEF X99) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [05]: (Rename HDAS to HDEF Z170) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [06]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [07]: (change MEI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000    patch disabled at config
+1:194  0:000   - [08]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000    patch disabled at config
+1:194  0:000   - [09]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000    patch disabled at config
+1:194  0:000   - [10]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000    patch disabled at config
+1:194  0:000   - [11]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [12]: (CAVS->HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:194  0:000   - [13]: (Comment: Fix AsRock Z390 BIOS DSDT Device(RTC) bug) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+1:194  0:000   - [14]: (change USTP, 8 to XSTP, 8 to, pair with SSDT-I2C1) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+1:194  0:000    patch disabled at config
+1:194  0:000  EnableC6: yes
+1:194  0:000  ResetAddr: 0x0
+1:194  0:000  Calc ResetVal: 0x0
+1:194  0:000  ResetVal: 0x0
+1:194  0:000  Using ProductName from config: MacBookPro14,1
+1:194  0:000  Using latest BiosVersion from config
+1:194  0:000  BiosVersion: MBP141.88Z.F000.B00.1812191142
+1:194  0:000  BiosReleaseDate: 12/19/2018
+1:194  0:000  Using latest EfiVersion from clover: 205.0.0.0.0
+1:194  0:000  Using FirmwareFeatures from config: 0xFC0FE137
+1:194  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+1:194  0:000  Board-ID set from config as Mac-B4831CEBD52A0C4C
+1:194  0:000  BoardType: 0xA
+1:194  0:000  ChassisType: 0x9
+1:195  0:000  === [ Found DSDT tables ] =======================
+1:195  0:000  - DSDT-NE.aml
+1:876  0:680  === [ ScanVolumes ] =============================
+1:876  0:000  Found 14 volumes with blockIO
+1:876  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+1:876  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:876  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+1:876  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:876  0:000          This is SelfVolume !!
+1:876  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+1:877  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+1:877  0:000          Result of bootcode detection: bootable Windows (vista,win)
+1:877  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+1:877  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:877  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+1:878  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+1:878  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+1:878  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+1:878  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:878  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+1:878  0:000          hiding this volume
+1:878  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+1:878  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+1:878  0:000          hiding this volume
+1:878  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+1:878  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+1:878  0:000  Searching volumes for latest nvram.plist ...
+1:878  0:000  loaded Status=Not Found
+1:878  0:000  PutNvramPlistToRtVars: nvram.plist not found
+1:878  0:000  No AudioIoProtocols, status=Not Found
+1:878  0:000  === [ InitTheme ] ===============================
+1:878  0:000  use night theme
+1:883  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+1:883  0:000  Warning! Character width 9 should be even!
+1:883  0:000  file sound read: sound_night.wav Not Found
+1:885  0:002    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+1:885  0:000  output to channel 0 with volume 70, len=452464
+1:885  0:000   sound channels=2 bits=16 freq=48000
+1:885  0:000  not found AudioIo to play
+1:885  0:000  free sound
+1:885  0:000  sound play end with status=Not Found
+1:885  0:000  Loading font from ThemeDir: Error
+1:888  0:002  theme inited
+1:888  0:000  Chosen theme bootcamp
+1:888  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+1:888  0:000  === [ Dump SMC keys from NVRAM ] ================
+1:888  0:000  found AppleSMC protocol
+1:888  0:000  === [ ScanLoader ] ==============================
+1:888  0:000  - [01]: 'ESP'
+1:889  0:000          AddLoaderEntry for Volume Name=ESP
+1:891  0:002          [!] Icon 19 (icons\vol_internal_ntfs.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+1:925  0:033          AddLoaderEntry for Volume Name=ESP
+1:925  0:000          skipped because entry is hidden
+1:925  0:000  - [03]: 'OS'
+1:953  0:028  - [04]: ''
+1:974  0:020          AddLoaderEntry for Volume Name=
+1:974  0:000          [!] Icon 20 (icons\vol_internal_ext3.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+1:985  0:010          AddLoaderEntry for Volume Name=
+1:985  0:000          skipped because entry is hidden
+1:985  0:000  - [09]: 'Preboot', hidden
+1:985  0:000  - [10]: 'mac - pn'
+2:014  0:029  - [11]: 'Recovery', hidden
+2:014  0:000  - [12]: 'VM'
+2:042  0:028  - [13]: 'mac'
+2:047  0:004          AddLoaderEntry for Volume Name=mac
+2:050  0:002      Check if volume Is Hibernated:
+2:050  0:000      Check sleep image 'by signature':
+2:050  0:000      using default sleep image name = \private\var\vm\sleepimage
+2:050  0:000      sleepimage not found -> Not Found
+2:050  0:000      hibernated: no - sign
+2:052  0:001          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+2:081  0:028  === [ AddCustomTool ] ===========================
+2:081  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+2:081  0:000  Checking EFI partition Volume 1 for Clover
+2:081  0:000   Found Clover
+2:081  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+2:082  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+2:168  0:085  === [ GetEfiBootDeviceFromNvram ] ===============
+2:168  0:000  Default boot entry not found
+2:168  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+2:168  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=9
+2:168  0:000  Use anime=logo_3D frames=50
+2:190  0:022   found 50 frames of the anime
+2:190  0:000   Anime seems OK, init it
+2:361  0:171  GUI ready
+9:146  6:784  Found BIOS RSDP at F0040
+9:146  0:000  Printing ACPI tables from RSDP F0040 ...
+9:146  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:146  0:000    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:146  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276
+9:146  0:000    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    Tables in Xsdt: 30
+9:146  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276
+9:146  0:000        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:146  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:146  0:000        773B2C00: 'FACS', Ver: 2, Len: 64
+9:146  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:146  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:146  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:146  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:146  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:146  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:146  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:146  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:146  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:146  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:146  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:146  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:146  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:146  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:146  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:146  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:146  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:146  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:146  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:146  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:146  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:146  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:146  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:146  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:146  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:146  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:146  0:000    Tables in Rsdt: 30
+9:146  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132
+9:146  0:000        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:146  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:146  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64
+9:146  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:146  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:146  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:146  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:146  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:146  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:146  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:146  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:146  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:146  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:146  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:146  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:146  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:146  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:146  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:146  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:146  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:146  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:146  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:146  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:146  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:146  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:146  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:146  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:146  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:146  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:146  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:146  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:146  0:000  Found UEFI Acpi 2.0 RSDP at 769DB000
+9:146  0:000  Saving ACPI tables from RSDP 769DB000 to EFI\CLOVER\ACPI\origin ...
+9:146  0:000   769DB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:161  0:014    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:161  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276 -> XSDT.aml
+9:174  0:013    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156 -> RSDT.aml
+9:187  0:013    Tables in Xsdt: 30
+9:187  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276 -> FACP.aml
+9:201  0:013        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:201  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680 -> DSDT.aml
+9:222  0:021        773B2C00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:236  0:013    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188 -> APIC.aml
+9:250  0:013    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+9:263  0:013    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156 -> FIDT.aml
+9:276  0:013    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+9:290  0:013    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007 -> SSDT-0.aml
+9:314  0:023    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+9:327  0:013    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731 -> SSDT-1.aml
+9:341  0:013    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714 -> SSDT-2.aml
+9:354  0:013    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+9:368  0:014    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989 -> SSDT-3.aml
+9:381  0:013    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425 -> SSDT-4.aml
+9:395  0:013    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66 -> UEFI.aml
+9:408  0:013    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148 -> LPIT.aml
+9:422  0:013    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40 -> WSMT.aml
+9:435  0:013    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-5.aml
+9:449  0:013    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168 -> SSDT-6.aml
+9:462  0:013    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52 -> DBGP.aml
+9:476  0:013    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84 -> DBG2.aml
+9:489  0:013    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992 -> SSDT-7.aml
+9:503  0:013    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268 -> SSDT-8.aml
+9:518  0:014    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85 -> MSDM.aml
+9:531  0:013    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+9:544  0:013    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-9.aml
+9:558  0:013    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-10.aml
+9:571  0:013    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129 -> NHLT.aml
+9:585  0:013    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56 -> BGRT.aml
+9:598  0:013    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52 -> TPM2.aml
+9:612  0:013    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461 -> SSDT-11.aml
+9:625  0:013    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+9:639  0:013    Tables in Rsdt: 30
+9:639  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+9:653  0:013        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:653  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:653  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+9:666  0:013    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:666  0:000  Found UEFI Acpi 1.0 RSDP at 769DB000
+9:666  0:000  Printing ACPI tables from RSDP 769DB000 ...
+9:666  0:000   769DB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:666  0:000    (Xsdt: 769DB0C8, Rsdt: 769DB028)
+9:666  0:000    769DB0C8: 'XSDT', 'CBX3', Rev: 1, Len: 276
+9:666  0:000    769DB028: 'RSDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    Tables in Xsdt: 30
+9:666  0:000    0. 76A1D7B0: 'FACP', 'CBX3', Rev: 6, Len: 276
+9:666  0:000        (Dsdt: 769DB270, Facs: 773B2C00, XDsdt: 769DB270, XFacs: 0)
+9:666  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:666  0:000        773B2C00: 'FACS', Ver: 2, Len: 64
+9:666  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+9:666  0:000    Tables in Rsdt: 30
+9:666  0:000    0. 769DB1E8: 'FACP', 'CBX3', Rev: 2, Len: 132
+9:666  0:000        (Dsdt: 769DB270, Facs: 773B2BC0)
+9:666  0:000        769DB270: 'DSDT', 'CBX3', Rev: 2, Len: 271680
+9:666  0:000        773B2BC0: 'FACS', Ver: 0, Len: 64
+9:666  0:000    1. 76A1D8C8: 'APIC', 'CBX3', Rev: 4, Len: 188
+9:666  0:000    2. 76A1D988: 'FPDT', 'CBX3', Rev: 1, Len: 68
+9:666  0:000    3. 76A1D9D0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+9:666  0:000    4. 76A1DA70: 'MCFG', 'CBX3', Rev: 1, Len: 60
+9:666  0:000    5. 76A1DAB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 7007
+9:666  0:000    6. 76A1F610: 'BOOT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    7. 76A1F638: 'SSDT', 'SaSsdt', Rev: 2, Len: 5731
+9:666  0:000    8. 76A20CA0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9714
+9:666  0:000    9. 76A23298: 'HPET', 'CBX3', Rev: 1, Len: 56
+9:666  0:000    10. 76A232D0: 'SSDT', 'CflH_Tbt', Rev: 2, Len: 10989
+9:666  0:000    11. 76A25DC0: 'SSDT', 'xh_cfht4', Rev: 2, Len: 13425
+9:666  0:000    12. 76A29238: 'UEFI', 'CBX3', Rev: 1, Len: 66
+9:666  0:000    13. 76A29280: 'LPIT', 'CBX3', Rev: 1, Len: 148
+9:666  0:000    14. 76A29318: 'WSMT', 'CBX3', Rev: 1, Len: 40
+9:666  0:000    15. 76A29340: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+9:666  0:000    16. 76A2BB20: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4168
+9:666  0:000    17. 76A2CB68: 'DBGP', 'CBX3', Rev: 1, Len: 52
+9:666  0:000    18. 76A2CBA0: 'DBG2', 'CBX3', Rev: 0, Len: 84
+9:666  0:000    19. 76A2CBF8: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1992
+9:666  0:000    20. 76A2D3C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 21268
+9:666  0:000    21. 76A326D8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+9:666  0:000    22. 76A32730: 'SLIC', 'CBX3', Rev: 3, Len: 374
+9:666  0:000    23. 76A328A8: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+9:666  0:000    24. 76A329F0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+9:666  0:000    25. 76A32AA0: 'NHLT', 'EDK2', Rev: 0, Len: 6129
+9:666  0:000    26. 76A34298: 'BGRT', 'CBX3', Rev: 0, Len: 56
+9:666  0:000    27. 76A342D0: 'TPM2', 'CBX3', Rev: 4, Len: 52
+9:666  0:000    28. 76A34308: 'SSDT', 'OptTabl', Rev: 1, Len: 9461
+9:666  0:000    29. 76A36800: 'DMAR', 'EDK2', Rev: 1, Len: 168
+11:091  1:424  === [ FixBiosDsdt ] =============================
+11:092  0:000  Patching DSDT:
+11:092  0:000   - [change _DSM to XDSM]: pattern 5F44534D, patched at: [ (499C) (445) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3A4) (3ED0) (76) (48B) (B) (47A) (5F1) (11) (6B) (22) (22) (3C) (18) (36) (814) (26F0) (E3) (E3) (60E) (C0) (C0) (C0) (C0) (C0) (C0) (C0) (C0) (FC) (106) (106) (342) (2CD) (9E) (59) (176) (2F1C) (20B3) (2CCF) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (A1F) (3348) (273D) (350) (BE) (29A) (28C) (350) (BE) (332) (350) (BE) (332) (350) (BE) (1B6) (102) (110) (A36C) ]
+11:092  0:000   - [OSID to XSID]: pattern 4F534944, patched at: [ (3E2C7) (118) (F) (66F) (200) (1BCE) ]
+11:093  0:000   - [change _OSI to XOSI]: pattern 5F4F5349, patched at: [ (A8EE) (B201) (20C8) (3) (18) (1C) (1C) (1A) (18) (18) (18) (18) (18) (19) (EC) (5) (E) (264EF) (3) (D) (D) (D) (C) (D) (D) (D) (D) (D) ]
+11:093  0:000   - [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+11:093  0:000   - [Rename ALZA to HDEF X99]: pattern 414C5A41, bin not found / already patched!
+11:093  0:000   - [Rename HDAS to HDEF Z170]: pattern 48444153, patched at: [ (924) (12) (12) (E546) (76) (3F) (66) (A7) (DB) (89) (1919F) (19D0) (61CA) (8FCC) ]
+11:094  0:000   - [change HECI to IMEI]: pattern 48454349, patched at: [ (138E7) (14A18) (1FAE) ]
+11:094  0:000   - [change MEI to IMEI]: disabled
+11:094  0:000   - [change LPC to LPCB]: disabled
+11:094  0:000   - [change EHC1 to EH01]: disabled
+11:094  0:000   - [change EHC2 to EH02]: disabled
+11:094  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (52) (E) (12) (12) (12) (5E) (12) (12) (12) (77) (12) (C89) (12) (5C5) (12) (1D) (3503) (12495) (1B) (F7B) (A) (2C6A) (14) (D69A) (1B84) (147C4) (3E90) (31) (18) (4B) (11) (97) (65) (6E) ]
+11:094  0:000   - [CAVS->HDEF]: pattern 43415653, bin not found / already patched!
+11:094  0:000   - [Comment: Fix AsRock Z390 BIOS DSDT Device(RTC) bug]: pattern A00A9353, patched at: [ (13E23) ]
+11:095  0:000   - [change USTP, 8 to XSTP, 8 to, pair with SSDT-I2C1]: disabled
+11:095  0:000    0 replacements
+11:113  0:017  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-4.aml
+11:865  0:752  exit from MainMenu 8
+11:865  0:000  ReinitSelfLib after theme change
+11:865  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+11:865  0:000  new SelfHandle=707C0398
+11:865  0:000  === [ ScanVolumes ] =============================
+11:865  0:000  Found 14 volumes with blockIO
+11:865  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+11:866  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:866  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+11:866  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:866  0:000          This is SelfVolume !!
+11:866  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+11:866  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+11:866  0:000          Result of bootcode detection: bootable Windows (vista,win)
+11:866  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+11:866  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:866  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+11:866  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+11:867  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+11:867  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+11:867  0:000          Result of bootcode detection: bootable unknown (legacy)
+11:867  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+11:867  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+11:867  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+11:867  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+11:867  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+11:867  0:000  No AudioIoProtocols, status=Not Found
+11:867  0:000  theme inited
+11:867  0:000  Chosen theme bootcamp
+11:868  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+11:868  0:000  === [ ScanLoader ] ==============================
+11:868  0:000  - [01]: 'ESP'
+11:868  0:000          AddLoaderEntry for Volume Name=ESP
+11:899  0:030          AddLoaderEntry for Volume Name=ESP
+11:900  0:001          [!] Icon 12 (icons\vol_internal.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+11:901  0:000  - [03]: 'OS'
+11:928  0:027  - [04]: ''
+11:949  0:020          AddLoaderEntry for Volume Name=
+11:958  0:009          AddLoaderEntry for Volume Name=
+11:959  0:001  - [09]: 'Preboot'
+11:960  0:000          AddLoaderEntry for Volume Name=Preboot
+11:961  0:000      Check if volume Is Hibernated:
+11:961  0:000      Check sleep image 'by signature':
+11:961  0:000      using default sleep image name = \private\var\vm\sleepimage
+11:961  0:000      sleepimage not found -> Not Found
+11:961  0:000      hibernated: no - sign
+11:990  0:029  - [10]: 'mac - pn'
+12:019  0:028  - [11]: 'Recovery'
+12:019  0:000          AddLoaderEntry for Volume Name=Recovery
+12:021  0:001          [!] Icon 21 (icons\vol_recovery.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+12:050  0:029  - [12]: 'VM'
+12:089  0:038  - [13]: 'mac'
+12:089  0:000          AddLoaderEntry for Volume Name=mac
+12:090  0:000      Check if volume Is Hibernated:
+12:090  0:000      Check sleep image 'by signature':
+12:090  0:000      using default sleep image name = \private\var\vm\sleepimage
+12:090  0:000      sleepimage not found -> Not Found
+12:090  0:000      hibernated: no - sign
+12:119  0:029  === [ AddCustomTool ] ===========================
+12:119  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+12:119  0:000  Checking EFI partition Volume 1 for Clover
+12:120  0:000   Found Clover
+12:120  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+12:120  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+12:208  0:088  === [ GetEfiBootDeviceFromNvram ] ===============
+12:208  0:000  Default boot entry not found
+12:208  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+12:208  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=13
+12:208  0:000  Use anime=logo_3D frames=50
+12:208  0:000   Anime seems OK, init it
+13:981  1:773  exit from MainMenu 8
+13:983  0:001  ReinitSelfLib after theme change
+13:983  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+13:983  0:000  new SelfHandle=707C0398
+13:983  0:000  === [ ScanVolumes ] =============================
+13:983  0:000  Found 14 volumes with blockIO
+13:983  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+13:983  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:983  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+13:983  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:984  0:000          This is SelfVolume !!
+13:984  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+13:984  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+13:984  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:984  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+13:984  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:984  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+13:984  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+13:984  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+13:984  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+13:985  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:985  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+13:985  0:000          hiding this volume
+13:985  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+13:985  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+13:985  0:000          hiding this volume
+13:985  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+13:985  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+13:985  0:000  No AudioIoProtocols, status=Not Found
+13:985  0:000  theme inited
+13:985  0:000  Chosen theme bootcamp
+13:985  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+13:985  0:000  === [ ScanLoader ] ==============================
+13:985  0:000  - [01]: 'ESP'
+13:986  0:000          AddLoaderEntry for Volume Name=ESP
+14:016  0:030          AddLoaderEntry for Volume Name=ESP
+14:016  0:000          skipped because entry is hidden
+14:016  0:000  - [03]: 'OS'
+14:043  0:027  - [04]: ''
+14:064  0:020          AddLoaderEntry for Volume Name=
+14:073  0:009          AddLoaderEntry for Volume Name=
+14:073  0:000          skipped because entry is hidden
+14:073  0:000  - [09]: 'Preboot', hidden
+14:073  0:000  - [10]: 'mac - pn'
+14:102  0:028  - [11]: 'Recovery', hidden
+14:102  0:000  - [12]: 'VM'
+14:140  0:038  - [13]: 'mac'
+14:140  0:000          AddLoaderEntry for Volume Name=mac
+14:141  0:000      Check if volume Is Hibernated:
+14:141  0:000      Check sleep image 'by signature':
+14:141  0:000      using default sleep image name = \private\var\vm\sleepimage
+14:141  0:000      sleepimage not found -> Not Found
+14:141  0:000      hibernated: no - sign
+14:170  0:029  === [ AddCustomTool ] ===========================
+14:170  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+14:170  0:000  Checking EFI partition Volume 1 for Clover
+14:171  0:000   Found Clover
+14:171  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+14:171  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+14:259  0:088  === [ GetEfiBootDeviceFromNvram ] ===============
+14:259  0:000  Default boot entry not found
+14:259  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+14:259  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=9
+14:259  0:000  Use anime=logo_3D frames=50
+14:259  0:000   Anime seems OK, init it
+14:813  0:553  exit from MainMenu 8
+14:813  0:000  ReinitSelfLib after theme change
+14:813  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+14:813  0:000  new SelfHandle=707C0398
+14:813  0:000  === [ ScanVolumes ] =============================
+14:813  0:000  Found 14 volumes with blockIO
+14:813  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+14:813  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:813  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+14:813  0:000          Result of bootcode detection: bootable Windows (vista,win)
+14:813  0:000          This is SelfVolume !!
+14:813  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+14:813  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+14:814  0:000          Result of bootcode detection: bootable Windows (vista,win)
+14:814  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+14:814  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:814  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+14:814  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+14:814  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+14:814  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+14:814  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:814  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+14:814  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+14:815  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+14:815  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+14:815  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+14:815  0:000  No AudioIoProtocols, status=Not Found
+14:815  0:000  theme inited
+14:815  0:000  Chosen theme bootcamp
+14:815  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+14:815  0:000  === [ ScanLoader ] ==============================
+14:815  0:000  - [01]: 'ESP'
+14:816  0:000          AddLoaderEntry for Volume Name=ESP
+14:845  0:029          AddLoaderEntry for Volume Name=ESP
+14:847  0:001  - [03]: 'OS'
+14:874  0:027  - [04]: ''
+14:894  0:020          AddLoaderEntry for Volume Name=
+14:904  0:009          AddLoaderEntry for Volume Name=
+14:905  0:001  - [09]: 'Preboot'
+14:905  0:000          AddLoaderEntry for Volume Name=Preboot
+14:906  0:000      Check if volume Is Hibernated:
+14:906  0:000      Check sleep image 'by signature':
+14:906  0:000      using default sleep image name = \private\var\vm\sleepimage
+14:906  0:000      sleepimage not found -> Not Found
+14:906  0:000      hibernated: no - sign
+14:935  0:029  - [10]: 'mac - pn'
+14:974  0:038  - [11]: 'Recovery'
+14:974  0:000          AddLoaderEntry for Volume Name=Recovery
+15:005  0:030  - [12]: 'VM'
+15:033  0:028  - [13]: 'mac'
+15:034  0:000          AddLoaderEntry for Volume Name=mac
+15:034  0:000      Check if volume Is Hibernated:
+15:034  0:000      Check sleep image 'by signature':
+15:034  0:000      using default sleep image name = \private\var\vm\sleepimage
+15:034  0:000      sleepimage not found -> Not Found
+15:034  0:000      hibernated: no - sign
+15:064  0:029  === [ AddCustomTool ] ===========================
+15:064  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+15:064  0:000  Checking EFI partition Volume 1 for Clover
+15:065  0:000   Found Clover
+15:065  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+15:065  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+15:153  0:088  === [ GetEfiBootDeviceFromNvram ] ===============
+15:153  0:000  Default boot entry not found
+15:153  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+15:153  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=13
+15:153  0:000  Use anime=logo_3D frames=50
+15:153  0:000   Anime seems OK, init it
+31:672  16:518  exit from MainMenu 8
+31:672  0:000  ReinitSelfLib after theme change
+31:672  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+31:672  0:000  new SelfHandle=707C0398
+31:672  0:000  === [ ScanVolumes ] =============================
+31:672  0:000  Found 14 volumes with blockIO
+31:672  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+31:672  0:000          Result of bootcode detection: bootable unknown (legacy)
+31:672  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+31:672  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:672  0:000          This is SelfVolume !!
+31:672  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+31:672  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+31:673  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:673  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+31:673  0:000          Result of bootcode detection: bootable unknown (legacy)
+31:673  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+31:673  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+31:673  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+31:674  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+31:674  0:000          Result of bootcode detection: bootable unknown (legacy)
+31:674  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+31:674  0:000          hiding this volume
+31:674  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+31:674  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+31:674  0:000          hiding this volume
+31:674  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+31:674  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+31:674  0:000  No AudioIoProtocols, status=Not Found
+31:674  0:000  theme inited
+31:674  0:000  Chosen theme bootcamp
+31:674  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+31:674  0:000  === [ ScanLoader ] ==============================
+31:674  0:000  - [01]: 'ESP'
+31:675  0:000          AddLoaderEntry for Volume Name=ESP
+31:706  0:031          AddLoaderEntry for Volume Name=ESP
+31:706  0:000          skipped because entry is hidden
+31:706  0:000  - [03]: 'OS'
+31:734  0:027  - [04]: ''
+31:755  0:020          AddLoaderEntry for Volume Name=
+31:765  0:009          AddLoaderEntry for Volume Name=
+31:765  0:000          skipped because entry is hidden
+31:765  0:000  - [09]: 'Preboot', hidden
+31:765  0:000  - [10]: 'mac - pn'
+31:793  0:028  - [11]: 'Recovery', hidden
+31:793  0:000  - [12]: 'VM'
+31:821  0:028  - [13]: 'mac'
+31:822  0:000          AddLoaderEntry for Volume Name=mac
+31:822  0:000      Check if volume Is Hibernated:
+31:822  0:000      Check sleep image 'by signature':
+31:822  0:000      using default sleep image name = \private\var\vm\sleepimage
+31:823  0:000      sleepimage not found -> Not Found
+31:823  0:000      hibernated: no - sign
+31:853  0:030  === [ AddCustomTool ] ===========================
+31:853  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+31:853  0:000  Checking EFI partition Volume 1 for Clover
+31:853  0:000   Found Clover
+31:853  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+31:853  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+31:952  0:099  === [ GetEfiBootDeviceFromNvram ] ===============
+31:952  0:000  Default boot entry not found
+31:952  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+31:952  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=9
+31:952  0:000  Use anime=logo_3D frames=50
+31:952  0:000   Anime seems OK, init it
+35:703  3:751  open 0 audio handle status=Invalid Parameter
+36:076  0:372  open 0 audio handle status=Invalid Parameter
+36:322  0:245  open 0 audio handle status=Invalid Parameter
+37:306  0:984  create test textbuffer
+37:306  0:000  test Font.svg loaded status=Not Found
+38:029  0:722  QueryMode 1 Status=Success
+38:043  0:014  Video mode change to mode #1: Success
+38:043  0:000  === [ InitTheme ] ===============================
+38:043  0:000  use night theme
+38:047  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+38:047  0:000  Warning! Character width 9 should be even!
+38:047  0:000  file sound read: sound_night.wav Not Found
+38:049  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+38:049  0:000  output to channel 0 with volume 70, len=452464
+38:049  0:000   sound channels=2 bits=16 freq=48000
+38:049  0:000  not found AudioIo to play
+38:049  0:000  free sound
+38:049  0:000  sound play end with status=Not Found
+38:049  0:000  Loading font from ThemeDir: Error
+38:680  0:630  QueryMode 2 Status=Success
+38:693  0:013  Video mode change to mode #2: Success
+38:693  0:000  === [ InitTheme ] ===============================
+38:693  0:000  use night theme
+38:698  0:005  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+38:698  0:000  Warning! Character width 9 should be even!
+38:699  0:000  file sound read: sound_night.wav Not Found
+38:700  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+38:700  0:000  output to channel 0 with volume 70, len=452464
+38:700  0:000   sound channels=2 bits=16 freq=48000
+38:700  0:000  not found AudioIo to play
+38:700  0:000  free sound
+38:700  0:000  sound play end with status=Not Found
+38:700  0:000  Loading font from ThemeDir: Error
+39:257  0:557  create test textbuffer
+39:258  0:000  test Font.svg loaded status=Not Found
+40:953  1:695  QueryMode 3 Status=Success
+40:961  0:007  Video mode change to mode #3: Success
+40:961  0:000  === [ InitTheme ] ===============================
+40:961  0:000  use night theme
+40:966  0:005  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+40:966  0:000  Warning! Character width 9 should be even!
+40:966  0:000  file sound read: sound_night.wav Not Found
+40:967  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+40:967  0:000  output to channel 0 with volume 70, len=452464
+40:967  0:000   sound channels=2 bits=16 freq=48000
+40:967  0:000  not found AudioIo to play
+40:967  0:000  free sound
+40:967  0:000  sound play end with status=Not Found
+40:967  0:000  Loading font from ThemeDir: Error
+41:191  0:223  QueryMode 4 Status=Success
+41:193  0:002  Video mode change to mode #4: Success
+41:193  0:000  === [ InitTheme ] ===============================
+41:193  0:000  use night theme
+41:197  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+41:197  0:000  Warning! Character width 9 should be even!
+41:198  0:000  file sound read: sound_night.wav Not Found
+41:199  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+41:199  0:000  output to channel 0 with volume 70, len=452464
+41:199  0:000   sound channels=2 bits=16 freq=48000
+41:199  0:000  not found AudioIo to play
+41:199  0:000  free sound
+41:199  0:000  sound play end with status=Not Found
+41:199  0:000  Loading font from ThemeDir: Error
+41:847  0:648  QueryMode 0 Status=Success
+41:860  0:012  Video mode change to mode #0: Success
+41:860  0:000  === [ InitTheme ] ===============================
+41:860  0:000  use night theme
+41:864  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+41:864  0:000  Warning! Character width 9 should be even!
+41:864  0:000  file sound read: sound_night.wav Not Found
+41:865  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+41:865  0:000  output to channel 0 with volume 70, len=452464
+41:865  0:000   sound channels=2 bits=16 freq=48000
+41:865  0:000  not found AudioIo to play
+41:865  0:000  free sound
+41:865  0:000  sound play end with status=Not Found
+41:865  0:000  Loading font from ThemeDir: Error
+43:424  1:558  QueryMode 1 Status=Success
+43:427  0:003  Video mode change to mode #1: Success
+43:427  0:000  === [ InitTheme ] ===============================
+43:427  0:000  use night theme
+43:432  0:005  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+43:432  0:000  Warning! Character width 9 should be even!
+43:433  0:000  file sound read: sound_night.wav Not Found
+43:434  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+43:434  0:000  output to channel 0 with volume 70, len=452464
+43:434  0:000   sound channels=2 bits=16 freq=48000
+43:434  0:000  not found AudioIo to play
+43:434  0:000  free sound
+43:434  0:000  sound play end with status=Not Found
+43:434  0:000  Loading font from ThemeDir: Error
+44:165  0:731  QueryMode 2 Status=Success
+44:177  0:012  Video mode change to mode #2: Success
+44:177  0:000  === [ InitTheme ] ===============================
+44:177  0:000  use night theme
+44:181  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+44:181  0:000  Warning! Character width 9 should be even!
+44:181  0:000  file sound read: sound_night.wav Not Found
+44:183  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+44:183  0:000  output to channel 0 with volume 70, len=452464
+44:183  0:000   sound channels=2 bits=16 freq=48000
+44:183  0:000  not found AudioIo to play
+44:183  0:000  free sound
+44:183  0:000  sound play end with status=Not Found
+44:183  0:000  Loading font from ThemeDir: Error
+44:608  0:425  QueryMode 3 Status=Success
+44:611  0:002  Video mode change to mode #3: Success
+44:611  0:000  === [ InitTheme ] ===============================
+44:611  0:000  use night theme
+44:616  0:005  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+44:616  0:000  Warning! Character width 9 should be even!
+44:616  0:000  file sound read: sound_night.wav Not Found
+44:617  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+44:617  0:000  output to channel 0 with volume 70, len=452464
+44:617  0:000   sound channels=2 bits=16 freq=48000
+44:617  0:000  not found AudioIo to play
+44:617  0:000  free sound
+44:617  0:000  sound play end with status=Not Found
+44:617  0:000  Loading font from ThemeDir: Error
+44:811  0:194  QueryMode 4 Status=Success
+44:828  0:016  Video mode change to mode #4: Success
+44:828  0:000  === [ InitTheme ] ===============================
+44:828  0:000  use night theme
+44:832  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+44:832  0:000  Warning! Character width 9 should be even!
+44:832  0:000  file sound read: sound_night.wav Not Found
+44:833  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+44:833  0:000  output to channel 0 with volume 70, len=452464
+44:833  0:000   sound channels=2 bits=16 freq=48000
+44:833  0:000  not found AudioIo to play
+44:833  0:000  free sound
+44:833  0:000  sound play end with status=Not Found
+44:833  0:000  Loading font from ThemeDir: Error
+45:092  0:258  QueryMode 0 Status=Success
+45:095  0:002  Video mode change to mode #0: Success
+45:095  0:000  === [ InitTheme ] ===============================
+45:095  0:000  use night theme
+45:099  0:004  Using theme 'bootcamp' (EFI\CLOVER\themes\bootcamp)
+45:099  0:000  Warning! Character width 9 should be even!
+45:099  0:000  file sound read: sound_night.wav Not Found
+45:100  0:001    Channels: 2  Sample rate: 48000 Hz  Bits: 16
+45:100  0:000  output to channel 0 with volume 70, len=452464
+45:100  0:000   sound channels=2 bits=16 freq=48000
+45:100  0:000  not found AudioIo to play
+45:100  0:000  free sound
+45:100  0:000  sound play end with status=Not Found
+45:100  0:000  Loading font from ThemeDir: Error
+48:862  3:761  exit from MainMenu 2
+48:971  0:108  ReinitSelfLib after theme change
+48:971  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+48:971  0:000  new SelfHandle=707C0398
+48:971  0:000  === [ ScanVolumes ] =============================
+48:971  0:000  Found 14 volumes with blockIO
+48:971  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+48:971  0:000          Result of bootcode detection: bootable unknown (legacy)
+48:971  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,4110B4DC-C1E0-4786-8B7D-D2266AFBCC25,0x800,0x145000)
+48:971  0:000          Result of bootcode detection: bootable Windows (vista,win)
+48:971  0:000          This is SelfVolume !!
+48:971  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,44147210-AB50-4E75-A647-E800611E2EA8,0x145800,0x40000)
+48:971  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(3,GPT,9D24D8EB-E195-4964-8C96-2B292E6905F0,0x185800,0xFFF0800)
+48:972  0:000          Result of bootcode detection: bootable Windows (vista,win)
+48:972  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(4,GPT,D2F55D25-0E77-6E46-A97B-E3A47C98C472,0x10176000,0xFA000)
+48:972  0:000          Result of bootcode detection: bootable unknown (legacy)
+48:972  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(5,GPT,9847BC31-B4A6-7441-A541-AA724E3DF735,0x10270000,0x2000000)
+48:972  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(6,GPT,182B6C22-3884-724F-8843-BF21B718248C,0x12270000,0xA000000)
+48:972  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(7,GPT,AE178F0F-D9EE-7D47-8213-C523466E6212,0x1C270000,0xEBC6000)
+48:972  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)
+48:972  0:000          Result of bootcode detection: bootable unknown (legacy)
+48:972  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,20381771DEB85848995178B10AFF80A5)
+48:972  0:000          hiding this volume
+48:972  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,562E2023E5ED3B408ECB727B09AA5A94)
+48:972  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FD221B8AD2F5E844AA4EA77AB62B4BB0)
+48:973  0:000          hiding this volume
+48:973  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4821850FD98664448E3B050DCC841421)
+48:973  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(8,GPT,7CC15572-84D2-405D-A30C-07D90485D749,0x2AE36000,0x10BAB288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5BF45E818F7A334CB619415F77974D43)
+48:973  0:000  Searching volumes for latest nvram.plist ...
+48:973  0:000  loaded Status=Not Found
+48:973  0:000  PutNvramPlistToRtVars: nvram.plist not found
+48:973  0:000  No AudioIoProtocols, status=Not Found
+48:973  0:000  theme inited
+48:973  0:000  Chosen theme bootcamp
+48:973  0:000  after NVRAM boot-args=-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=13 -igfxlspcon -igfxhdmidivs -v 
+48:973  0:000  === [ ScanLoader ] ==============================
+48:973  0:000  - [01]: 'ESP'
+48:974  0:000          AddLoaderEntry for Volume Name=ESP
+48:975  0:001          [!] Icon 19 (icons\vol_internal_ntfs.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+49:004  0:029          AddLoaderEntry for Volume Name=ESP
+49:004  0:000          skipped because entry is hidden
+49:004  0:000  - [03]: 'OS'
+49:032  0:027  - [04]: ''
+49:063  0:030          AddLoaderEntry for Volume Name=
+49:063  0:000          [!] Icon 20 (icons\vol_internal_ext3.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+49:073  0:010          AddLoaderEntry for Volume Name=
+49:073  0:000          skipped because entry is hidden
+49:073  0:000  - [09]: 'Preboot', hidden
+49:073  0:000  - [10]: 'mac - pn'
+49:103  0:029  - [11]: 'Recovery', hidden
+49:103  0:000  - [12]: 'VM'
+49:131  0:028  - [13]: 'mac'
+49:132  0:000          AddLoaderEntry for Volume Name=mac
+49:132  0:000      Check if volume Is Hibernated:
+49:132  0:000      Check sleep image 'by signature':
+49:132  0:000      using default sleep image name = \private\var\vm\sleepimage
+49:132  0:000      sleepimage not found -> Not Found
+49:132  0:000      hibernated: no - sign
+49:133  0:001          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\bootcamp)
+49:163  0:029  === [ AddCustomTool ] ===========================
+49:164  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+49:164  0:000  Checking EFI partition Volume 1 for Clover
+49:164  0:000   Found Clover
+49:164  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+49:165  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+49:254  0:089  === [ GetEfiBootDeviceFromNvram ] ===============
+49:254  0:000  Default boot entry not found
+49:254  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+49:254  0:000  DefaultIndex=-1 and MainMenu.Entries.size()=9
+49:254  0:000  Use anime=logo_3D frames=50
+49:254  0:000   Anime seems OK, init it
+51:546  2:292  Make screenshot W=1920 H=1080
+52:643  1:096  Make screenshot W=1920 H=1080
+80:740  28:096  exit from MainMenu 1
+80:740  0:000  ParseBootOption: invalid boot variable
+80:740  0:000  BootVariable of the entry is empty
+80:740  0:000  === [ StartLoader ] =============================
+80:740  0:000  Finally: ExternalClock=26MHz BusSpeed=100021kHz CPUFreq=2400MHz PIS: hw.busfrequency=104000000Hz
+80:740  0:000  start loader
+80:740  0:000  Loading grubx64.efi  status=Success
+80:747  0:006  Closing events for Linux
+80:747  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+80:747  0:000  OtherOS: Found Acpi 2.0 RSDP 0x769DB000
+80:747  0:000  RSDT at 769DB028
+80:747  0:000  XSDT at 769DB0C8
+80:747  0:000  FADT pointer = 76A1D7B0
+80:747  0:000  Dir Linux not found. No patching will be done.
+80:748  0:001  Custom boot is disabled
+80:748  0:000  Closing log
